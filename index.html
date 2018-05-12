@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="logo-black.png" type="image/x-icon"><!-- В корне оставить -->
+
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
+      <!-- Stylesheets -->
+      <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="resources/slick/slick.css"/>
+      <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+
+
+    <title></title>
+  </head>
+  <body>
+    <!-- NAV -->
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top"> <!-- -->
+        <div class="container-fluid">
+          <img class="navbar-brand collapse navbar-collapse" src="./resources/images/logo-black.png" alt="Brand"><!-- TODO:  изображение должно прятаться когда браузер сжимается -->
+          <ul class="nav navbar-nav firstNav">
+            <li class="active"><a href="#">Основное</a></li>
+            <li class="active1"><a href="#">Прайс</a></li>
+            <li class="active1"><a href="#">Документы</a></li>
+            <li class="active1"><a href="#about_us">О нас</a></li>
+            <li class="active1"><a href="#contacts">Контакты</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="fa fa-phone fa-1x"></span> +7(86557) 244-88</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav secondNav">
+            <li class="active_menu"><i class="fa fa-bars" style="font-size:48px"></i></li>
+            <li class="active"><a href="#">Основное</a></li>
+            <li class="active"><a href="#">Прайс</a></li>
+            <li class="active"><a href="#">Документы</a></li>
+            <li class="active"><a href="#about_us">О нас</a></li>
+            <li class="active"><a href="#contacts">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- -->
+    <!--
+    <div class="login-form">
+      <div class="container">
+        <form>
+          <h4>Username</h4>
+          <input class="username">
+          <h4>Password</h4>
+          <input type="password">
+          <input class="sign-in-button" type="submit" value="Sign In">
+        </form>
+      </div>
+    </div>-->
+    <main>
+      <!-- section --> <!-- TODO: проблемы с высотой -->
+      <section>
+        <div class="carousel">
+          <div class="jumbotron jumbotron-bike text-center slick-slide">
+            <div class="container-fluid">
+              <h1>СТОМАТОЛОГИЧЕСКИЙ КАБИНЕТ КУЛИК О.А.</h1>
+            </div>
+          </div>
+<!-- -->
+          <div class="jumbotron jumbotron-flowers text-center slick-slide">
+            <div class="container-fluid">
+              <h1>Консультация и диагностика</h1>
+            </div>
+          </div>
+<!-- -->
+          <div class="jumbotron jumbotron-beer text-center slick-slide">
+            <div class="container-fluid">
+              <h1>Терапевтическая стоматология</h1>
+            </div>
+          </div>
+<!-- -->
+          <div class="jumbotron jumbotron-duffel text-center slick-slide">
+            <div class="container-fluid">
+              <h1>Гигиена полости рта</h1>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <div class="relative-wrapper">
+        <a href="#" class="key-btn btn btn-primary btn-lg">Записаться на прием</a>
+      </div>
+
+      <!--MODAL WINDOW --><!-- TODO: http://www.internet-technologies.ru/articles/sozdaem-kontaktnuyu-formu-s-ispolzovaniem-bootstrap-php-i-ajax.html -->
+      <div class="modal-shadow"></div>
+          <div class="modal-window">
+            <div class="close">X</div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                  <div class="form-group">
+                       <label for="name">Ваше имя:</label>
+                       <input type="name" name="name" class="form-control" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                       <label for="email1">E-mail:</label>
+                       <input type="email" name="email" class="form-control" id="email1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                       <label for="phone">Номер телефона:</label>
+                       <input type="phone" name="phone" class="form-control" id="phone" placeholder="Phone">
+                    </div>
+                    <div class="form-group">
+                       <label for="message">Сообщение:</label>
+                       <textarea class="form-control" name="message" rows="3"></textarea>
+                    </div>
+                       <button type="submit" class="btn btn-info">Отправить сообщение</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      <!-- -->
+
+
+
+
+      <!-- Оказываемы услуги-->
+      <section>
+        <div class="container">
+          <div class="row">
+            <h2 class="col-xs-12 h2">Стоматологические услуги</h2>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-4 project">
+              <div class="image-container">
+                <a href="#">
+                  <img src="resources/images/stomatologiya2.jpg">
+                </a>
+              </div>
+              <h3 class="blue">Терапевтическая стоматология</h3>
+              <strong>Пломбирование зубов:</strong>
+              <ul>
+                <li>Анестезия и обезболивание</li>
+                <li>Подготовка к пломбированию (препарирование, медикаментозная обработка, наложение прокладки и др.)</li>
+                <li>Пломбирование композитным материалом светового отверждения</li>
+                <li>Контроль окклюзии, шлифование, полировка и др.</li>
+              </ul>
+              <strong>Лечение и пломбирование каналов зуба:</strong>
+              <ul>
+                <li>Анестезия и обезболивание</li>
+                <li>Механическая и медикаментозная обработка канала</li>
+                <li>Пломбирование канала гуттаперчевыми штифтами</li>
+                <li>Распломбировка корневого канала</li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 project">
+              <div class="image-container">
+                <a href="#">
+                  <img src="resources/images/stomatologiya1.jpg">
+                </a>
+              </div>
+              <h3 class="blue">Гигиена полости рта</h3>
+              <strong>Комплексная гигиена полости рта:</strong>
+              <ul>
+                <li>Ультразвуковая чистка зубов</li>
+                <li>Шлифовка и полировка зубов специальными пастами</li>
+                <li>Реминерализация зубов</li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 project">
+              <div class="image-container">
+                <a href="#">
+                  <img src="resources/images/stomatologiya.jpg">
+                </a>
+              </div>
+              <h3 class="blue">Консультация и диагностика</h3>
+              <strong>Осмотр и консультация:</strong>
+              <ul>
+                <li>Осмотр полости рта и подробная консультация</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- О нас -->
+      <section>
+        <div class="container featured-project">
+          <div id="about_us" class="row">
+            <h2 class="col-xs-12">Стоматологический кабинет Кулик О.А.</h2>
+            <div class="col-xs-12 col-md-12">
+                <p>ИП Кулик Ольга Абдрахмановна</p>
+                <p>Врач-стоматолог Кулик О.А. Окончила Ставропольский государственный медицинский институт в 1989 году. Сертификат специалиста Стоматология-терапевтическая 1126240785177 выдан 20.11.2015 г. ЧОУ ДПО "СИПК "КарьераМедиФарм". ​Адрес места осуществления деятельности: Ставропольский край, с. Александровское, ул. Калинина, д. 322 кв.1. ​Адрес места жительства: Ставропольский край, с. Александровское, ул. Калинина, д. 437 "А". ИНН 260100532919. ОГРН 306264903900042 выдан 08.02.2006 г. МРИ МНС России №9 по Ставропольскому краю.</p>
+                  <p>Деятельность ведется на основании лицензии № ЛО-26-01-001493 от 6 августа 2012 г. выдана Комитетом Ставропольского края по пищевой и перерабатывающей промышленности, торговле и лицензированию по адресу: 355029, г. Ставрополь, ул. Ленина, 415 «Д», телефон 8 (8652) 56-65-78, 56-66-05 (факс).</p>
+            </div>
+          </div>
+          <div class="row" id='contacts'>
+            <div class="col-xs-12 col-md-8 col-sm-12 col-lg-6">
+              <div class="map">
+                <iframe src="https://yandex.ru/map-widget/v1/-/CBqYvSA9WC" width="560" height="400" frameborder="0"></iframe>
+              </div>
+            </div>
+            <div class="col-xs-6 col-md-3 categories">
+                <h3>Контакты</h3>
+                <p>Стоматологический кабинет находится по адресу: Ставропольский край,с. Александровское, ул. Калинина, д. 322 кв.1.</p>
+                <p>Записаться на прием можно по телефону:</p>
+                <p>
+                  <span aria-hidden="true" class="fa fa-phone fa-1x"></span>
+                +7(86557) 244-88</p>
+                <h3>Приемные часы</h3>
+                <p>Понедельник — Пятница 10:00–17:00; Суббота — Воскресенье: выходной.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <div class="container-fluid text-left panel-footer">
+          Copyright &copy; 2018 Natalya. All rights reserved.
+          <a href="#">
+            <span aria-hidden="true" class="fa fa-envelope fa-2x"></span>
+          </a>
+          <a href="#">
+            <span aria-hidden="true" class="fa fa-github fa-2x"></span>
+          </a>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="resources/slick/slick.min.js"></script>
+    <script type="text/javascript" src="resources/js/main.js"></script>
+  </body>
+</html>
