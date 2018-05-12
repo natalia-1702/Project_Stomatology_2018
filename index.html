@@ -23,7 +23,7 @@
   <body>
     <!-- NAV -->
     <header>
-      <nav class="navbar navbar-default navbar-fixed-top"> <!-- -->
+      <nav class="navbar navbar-default navbar-fixed-top"> <!--default -->
         <div class="container-fluid">
           <img class="navbar-brand collapse navbar-collapse" src="./resources/images/logo-black.png" alt="Brand"><!-- TODO:  изображение должно прятаться когда браузер сжимается -->
           <ul class="nav navbar-nav firstNav">
@@ -36,6 +36,18 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#"><span class="fa fa-phone fa-1x"></span> +7(86557) 244-88</a></li>
           </ul>
+          <!-- поиск-->
+          <form class="navbar-form navbar-left" action="/action_page.php">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+          <!-- -->
 
           <ul class="nav navbar-nav secondNav">
             <li class="active_menu"><i class="fa fa-bars" style="font-size:48px"></i></li>
