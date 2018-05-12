@@ -32,12 +32,12 @@ html {
   display: block;
 }
 .secondNav .active {
-  border-top: 1px solid #777;
+  border-top: 1px solid #E5E5E5;
 }
 .navbar .navbar-nav .active1 a {
   background-color: inherit;
 }
-.navbar .navbar-nav a {
+.navbar .firstNav a, .navbar-right {
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   font-size: 100%; /* по спеке другое значение */
   font-weight: bold;
@@ -55,6 +55,9 @@ html {
 .navbar-nav.navbar-right li a {
   color: #00c8db;
   font-size: 1.2em;
+  font-size: 100%; /* по спеке другое значение */
+  /*font-weight: bold;*/
+  line-height: 20px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -68,9 +71,10 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #777;
   }
   .secondNav .active li a {
-    font-weight: bold;
+    font-weight: lighter;
   }
   .active {
   font-size: 1.5em;
@@ -281,10 +285,11 @@ html {
 .container .h2 {
   font-size: 1.7rem;
   font-weight: bold;
-  background-color: #C4E8FF;
   margin-bottom: 2rem;
-  color: #07657F;
+
+  color: #00c8db;
   padding: 10px;
+  border-bottom: 1px solid #777;
 
 }
 .project h3 {
@@ -316,8 +321,11 @@ html {
 .featured-project h2 {
   font-size: 1.7rem;
   font-weight: bold;
-  color: #00c8db;
   margin-bottom: 2rem;
+
+  color: #00c8db;
+  padding: 10px;
+  border-bottom: 1px solid #777;
 }
 
 #about_us {

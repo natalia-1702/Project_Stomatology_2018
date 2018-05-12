@@ -36,10 +36,14 @@ $(document).ready(function(){ //пока не будет загружен html �
 $(document).ready(function(){
   $('.active_menu').on('mouseenter', ()=>{
     $('.active').slideDown(500);
+    $('.active_menu').css({"color": "#00c8db"});
   });
 
   $('.secondNav').on('mouseleave', ()=>{
     $('.active').slideUp(500);
+  });
+  $('.active_menu').on('mouseleave', ()=>{
+    $('.active_menu').css({"color": "#777", "backgroundColor": "rgb(245, 245, 245)"});
   });
 
 
