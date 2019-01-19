@@ -64,6 +64,8 @@ $(document).ready(function(){
     $('.modal-window').hide();
   });
 
+  /*$('.relative-wrapper').trigger('click');*/
+
 /*  Меняет цвет иконок в футере */
   $('.panel-footer a').on('mouseenter', (event)=>{
     $(event.currentTarget).css('color', 'black');
