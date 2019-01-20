@@ -64,6 +64,28 @@ $(document).ready(function(){
     $('.modal-window').hide();
   });
 
+
+//при отправке введенных значений
+  $('.send').click(function(){
+    $('.modal-shadow').hide();
+    $('.modal-window').hide();
+//сохраняем в переменные введенные данные для дальнейшей обработки
+    var $name = $('#name').val();
+    $('#name').empty();
+
+    var $email1 = $('#email1').val();
+    $('#email1').empty();
+
+    var $phone = $('#phone').val();
+    $('#phone').empty();
+
+    var $message = $('#message').val();
+    $('#message').empty();
+    console.log($name,$email1,$phone, $message);
+
+  });
+
+
   /*$('.relative-wrapper').trigger('click');*/
 
 /*  Меняет цвет иконок в футере */
